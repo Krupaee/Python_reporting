@@ -114,4 +114,18 @@
 # matrix[0].insert(0,'z')
 # print(matrix)
 
+# Remove
+# letters = ['a', 'b', 'a']
+# # letters.clear()
+# # letters.remove('a')
+# # letters.pop(1)
+# removed = letters.pop()
+# print(letters)
+# print('Removed Item :' , removed)
 
+letters = [5,2,3,4,5,6]
+letters.remove(5)
+print (letters)
+
+
+#  Update
