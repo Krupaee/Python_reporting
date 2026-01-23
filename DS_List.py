@@ -60,3 +60,13 @@
 # print(matrix[2:])
 
 # print(matrix[2][:2])
+
+# unpacking
+# person = ['Maria', 29, 'data engineer','spain']
+# # name, age, role, country = person
+# # name, *details = person
+# # name, _, _, country = person
+# name, *_ = person
+# print (name)
+
+
