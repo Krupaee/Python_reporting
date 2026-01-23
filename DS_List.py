@@ -69,4 +69,49 @@
 # name, *_ = person
 # print (name)
 
+# numbers = [1, 5, 5, 4, 3]
+# print("Max:" , max(numbers))
+# print("Min:" , min(numbers))
+# print("Sum:" , sum(numbers))
+# print("Length:" , len(numbers))
+
+# print("All:" , all(numbers))
+# print("All:" , all([1,0,2]))
+# print("All:" , all(['a', '', 'b']))
+
+# print("Any:" , any(numbers))
+# print("Any:" , any([1,0,2]))
+# print("Any:" , any([0, 0, 0]))
+
+# print("Count :" , numbers.count(5))
+# print("Index :", numbers.index(5))
+
+# print(4 in numbers)
+# print(8 not in numbers)
+
+# list1 = [1,2,3]
+# list2 = [5,2,3]
+# print(list1 == list2)
+# print(list1 < list2)
+# print(list1 is list2)
+
+# Add 
+# letters = ['a', 'b', 'c']
+# # letters.append('x')
+# # letters.append('y')
+# letters.insert(0,'x')
+# letters.insert(3,'y')
+# print(letters)
+
+# matrix = [
+#      ['a', 'b', 'c'],
+#      ['d', 'e', 'f'],
+#      ['g', 'h', 'i']
+# ]
+# # matrix.append(['x', 'y', 'z'])
+# # matrix.insert(0,['a', 'a', 'a'])
+# matrix[1].append('x')
+# matrix[0].insert(0,'z')
+# print(matrix)
+
 
