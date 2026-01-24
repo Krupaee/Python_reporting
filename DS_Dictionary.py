@@ -58,3 +58,28 @@
 
 # user.popitem()
 # print(user)
+
+# # Creation
+# user = {
+#     "id": None,
+#     "name":None,
+#     "age": None,
+#     "City": None
+#     }
+# #  OR
+# user = dict.fromkeys(["id", "name", "age", "city"], None)
+# print (user)
+
+# #  CHALLANGE
+# # Create New dict
+# # keep only pairs with string values
+# # convert the values to uppercase
+# # elegant & short solution
+
+# user = {'id':1, 'name':'John', 'age': 30, 'city': 'berlin'}
+# user_str = {
+#     k.capitalize() : v.upper() # expression
+#     for k,v in user.items()   #loop
+#     if isinstance(v, str)   #filter
+# }
+# print (user_str)
