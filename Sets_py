@@ -1,0 +1,11 @@
+# Methods in Sets
+# a = {10, 20, 30, 40}
+# a.add(50)
+# a.update('hi')
+# a.update({1,2})
+# a |= {1,2}
+# a.remove(10)
+# # a.remove(100)  # error occurs 
+# a.discard(100)
+# print (a)
+
