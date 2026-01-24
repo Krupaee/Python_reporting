@@ -126,6 +126,4 @@
 letters = [5,2,3,4,5,6]
 letters.remove(5)
 print (letters)
-
-
 #  Update

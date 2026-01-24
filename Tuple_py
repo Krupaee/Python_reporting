@@ -1,0 +1,5 @@
+# my_tuple = (10, 30, 20, 10)
+# print(my_tuple)
+# print(my_tuple[2])
+# # my_tuple[3]= 40  # it is immutable(unchangeable)
+# print(sorted(my_tuple))
