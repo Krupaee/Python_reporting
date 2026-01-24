@@ -114,7 +114,7 @@
 # matrix[0].insert(0,'z')
 # print(matrix)
 
-# Remove
+# # Remove
 # letters = ['a', 'b', 'a']
 # # letters.clear()
 # # letters.remove('a')
@@ -123,7 +123,35 @@
 # print(letters)
 # print('Removed Item :' , removed)
 
-letters = [5,2,3,4,5,6]
-letters.remove(5)
-print (letters)
-#  Update
+# letters = [5,2,3,4,5,6]
+# letters.remove(5)
+# print (letters)
+
+# matrix = [
+#      ['a', 'b', 'c'],
+#      ['d', 'e', 'f'],
+#      ['g', 'h', 'i']
+# ]
+# matrix.remove(['a', 'b', 'c'])
+# matrix.pop()
+# matrix[1].remove('e')
+# matrix[-1].pop(0)
+# matrix[0].pop()
+# print(matrix)
+
+# #  Update
+# letters = ['a', 'b', 'c']
+# letters[0] = 'x'
+# letters[-1] = 'y'
+# print (letters)
+
+# matrix = [
+#      ['a', 'b', 'c'],
+#      ['d', 'e', 'f'],
+#      ['g', 'h', 'i']
+# ]
+# matrix[-1] = ['x', 'y', 'z']
+# matrix[0][0] = '-'
+# matrix[1][1] = '-'
+# matrix[-1][-1] = '-'
+# print (matrix)
