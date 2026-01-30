@@ -141,17 +141,17 @@
 
 # #  Update
 # letters = ['a', 'b', 'c']
-# letters[0] = 'x'
-# letters[-1] = 'y'
-# print (letters)
+letters[0] = 'x'
+letters[-1] = 'y'
+print (letters)
 
-# matrix = [
-#      ['a', 'b', 'c'],
-#      ['d', 'e', 'f'],
-#      ['g', 'h', 'i']
-# ]
-# matrix[-1] = ['x', 'y', 'z']
-# matrix[0][0] = '-'
-# matrix[1][1] = '-'
-# matrix[-1][-1] = '-'
-# print (matrix)
+matrix = [
+     ['a', 'b', 'c'],
+     ['d', 'e', 'f'],
+     ['g', 'h', 'i']
+]
+matrix[-1] = ['x', 'y', 'z']
+matrix[0][0] = '-'
+matrix[1][1] = '-'
+matrix[-1][-1] = '-'
+print (matrix)
