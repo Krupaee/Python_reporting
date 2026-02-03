@@ -60,3 +60,12 @@
 # clean_text("MaRiA ")
 # print(case_rule)            # Global variable
 
+# # Lambda Function
+# prices = ['$12.50', '$9.99','$100.00']
+
+# print(list(map(lambda p: float(p.replace('$', '')), prices)))
+
+prices = [120, 30, 300, 80] 
+
+print(list(filter( lambda p: p >= 100, prices)))
+      
